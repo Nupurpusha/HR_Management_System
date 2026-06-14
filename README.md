@@ -123,7 +123,7 @@ SharePoint / Excel → Trigger → Get File Content → Transform & Cleanse
 
 The core **`Employee`** table connects to 8 child tables, each capturing a distinct HR domain — enabling clean relational queries without duplication:
 
-<img width="1055" height="346" alt="image" src="https://github.com/user-attachments/assets/f60799a4-eaf6-4564-933b-04bca19d7ef7" />
+<img width="1917" height="533" alt="image" src="https://github.com/user-attachments/assets/3bb73d10-cacc-41f5-b248-c84d100700a7" />
 
 
 | Table | Purpose | Relationship to Employee |
@@ -189,7 +189,7 @@ The core **`Employee`** table connects to 8 child tables, each capturing a disti
 
 **HR Analytics Dashboard (live, connected to Dataverse):**
 
-<img width="827" height="462" alt="image" src="https://github.com/user-attachments/assets/afbb8ecd-1ab6-4b7f-8400-b320ae68594d" />
+<img width="1323" height="737" alt="image" src="https://github.com/user-attachments/assets/207bf428-f883-4eef-a407-6b517d4f145f" />
 
 
 | KPI | Value |
@@ -296,18 +296,6 @@ flowchart TD
 - ✅ Standardized employee, department, company, and location-related fields for consistency
 - ✅ Cleaned and normalized date, status, and reporting manager information across records
 - ✅ Identified repeating grouped fields and prepared them for normalization into separate relational tables
-
----
-
-## 📸 Dashboards & App Screenshots
-
-| Power BI — HR Analytics Dashboard | Power Apps — HR Portal |
-|---|---|
-| ![Power BI Dashboard](assets/power-bi-dashboard.png) | ![Power Apps HR Portal](assets/power-apps-hr-portal.png) |
-
-| Dataverse ER Diagram | Power Automate Sync Flow |
-|---|---|
-| ![ER Diagram](assets/dataverse-er-diagram.png) | ![Power Automate Flow](assets/power-automate-workflow.png) |
 
 ---
 
