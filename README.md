@@ -375,35 +375,6 @@ flowchart TD
 
 ---
 
-## 📂 Project Structure
-
-```
-smarter-hr-power-platform/
-├── README.md
-├── assets/                      # Diagrams & screenshots used in this README
-│   ├── architecture-solution.png
-│   ├── workflow-architecture.png
-│   ├── dataverse-er-diagram.png
-│   ├── power-automate-workflow.png
-│   ├── power-bi-dashboard.png
-│   └── power-apps-hr-portal.png
-├── dataverse/                   # Table schemas, solution exports (.zip)
-│   ├── cr_employee.json
-│   └── child-tables/
-├── power-automate/              # Exported flow definitions (.json / .zip)
-│   └── hr-data-sync-flow.zip
-├── power-bi/                    # .pbix files
-│   └── hr-analytics-dashboard.pbix
-├── power-apps/                  # Canvas app package (.msapp)
-│   └── hr-portal-app.msapp
-└── docs/                        # Additional documentation
-    └── data-dictionary.md
-```
-
-> 📝 Note: Add your exported Power Platform solution files (`.zip`, `.pbix`, `.msapp`) to the appropriate folders above to make this repo a complete, deployable package.
-
----
-
 ## ✅ Results
 
 ### One Platform. Zero Data Chaos. Full HR Clarity.
