@@ -72,9 +72,8 @@ Instead of HR teams manually maintaining disconnected spreadsheets, this project
 
 Microsoft **Dataverse** sits at the core as the **single source of truth**. Every other tool reads from and writes to it:
 
-<p align="center">
-  <img src="assets/architecture-solution.png" alt="Solution Architecture - Dataverse as the core" width="850"/>
-</p>
+<img width="675" height="311" alt="image" src="https://github.com/user-attachments/assets/19ce9597-abdc-4676-aa3a-23e6d0c2e351" />
+
 
 | Tool | Role |
 |---|---|
