@@ -398,7 +398,3 @@ Contributions, suggestions, and feedback are welcome!
 This project is licensed under the **MIT License** — see the `LICENSE` file for details.
 
 ---
-
-<p align="center">
-  Built with ❤️ on the Microsoft Power Platform — <b>ClickTech</b>
-</p>
