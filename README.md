@@ -89,7 +89,7 @@ Microsoft **Dataverse** sits at the core as the **single source of truth**. Ever
 
 The platform is organized into **7 layers**, from raw source data to end consumers — with governance and security applied throughout:
 
-<img width="976" height="350" alt="image" src="https://github.com/user-attachments/assets/571a2b77-e1ea-42e6-bd69-a54839030127" />
+<img width="1338" height="401" alt="image" src="https://github.com/user-attachments/assets/94c5599f-226f-416b-b33d-01b388bb9e18" />
 
 
 **Pipeline stages:**
@@ -108,7 +108,7 @@ All of this is wrapped in **Governance & Security**: role-based security, data p
 
 Cloud flows continuously watch the Excel/SharePoint sources and Dataverse tables — syncing data and triggering notifications without human intervention:
 
-<img width="1026" height="132" alt="image" src="https://github.com/user-attachments/assets/f39c41c4-dad3-4b3d-9ca8-065aecb63cce" />
+<img width="1372" height="187" alt="image" src="https://github.com/user-attachments/assets/76a52480-33b3-416d-b80b-cbd7b6cd4466" />
 
 
 ```
