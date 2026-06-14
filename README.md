@@ -89,9 +89,8 @@ Microsoft **Dataverse** sits at the core as the **single source of truth**. Ever
 
 The platform is organized into **7 layers**, from raw source data to end consumers — with governance and security applied throughout:
 
-<p align="center">
-  <img src="assets/workflow-architecture.png" alt="End-to-end workflow architecture" width="900"/>
-</p>
+<img width="976" height="350" alt="image" src="https://github.com/user-attachments/assets/571a2b77-e1ea-42e6-bd69-a54839030127" />
+
 
 **Pipeline stages:**
 
@@ -109,9 +108,8 @@ All of this is wrapped in **Governance & Security**: role-based security, data p
 
 Cloud flows continuously watch the Excel/SharePoint sources and Dataverse tables — syncing data and triggering notifications without human intervention:
 
-<p align="center">
-  <img src="assets/power-automate-workflow.png" alt="Power Automate workflow" width="900"/>
-</p>
+<img width="1026" height="132" alt="image" src="https://github.com/user-attachments/assets/f39c41c4-dad3-4b3d-9ca8-065aecb63cce" />
+
 
 ```
 SharePoint / Excel → Trigger → Get File Content → Transform & Cleanse
@@ -125,9 +123,8 @@ SharePoint / Excel → Trigger → Get File Content → Transform & Cleanse
 
 The core **`Employee`** table connects to 8 child tables, each capturing a distinct HR domain — enabling clean relational queries without duplication:
 
-<p align="center">
-  <img src="assets/dataverse-er-diagram.png" alt="Dataverse Entity Relationship Diagram" width="950"/>
-</p>
+<img width="1055" height="346" alt="image" src="https://github.com/user-attachments/assets/f60799a4-eaf6-4564-933b-04bca19d7ef7" />
+
 
 | Table | Purpose | Relationship to Employee |
 |---|---|---|
@@ -192,9 +189,8 @@ The core **`Employee`** table connects to 8 child tables, each capturing a disti
 
 **HR Analytics Dashboard (live, connected to Dataverse):**
 
-<p align="center">
-  <img src="assets/power-bi-dashboard.png" alt="Power BI HR Analytics Dashboard" width="900"/>
-</p>
+<img width="827" height="462" alt="image" src="https://github.com/user-attachments/assets/afbb8ecd-1ab6-4b7f-8400-b320ae68594d" />
+
 
 | KPI | Value |
 |---|---|
@@ -250,9 +246,8 @@ Trigger Event → Condition Check → Action Executed → Notification Sent → 
 
 **HR Portal app (connected live to Dataverse):**
 
-<p align="center">
-  <img src="assets/power-apps-hr-portal.png" alt="Power Apps HR Portal" width="900"/>
-</p>
+<img width="1343" height="895" alt="image" src="https://github.com/user-attachments/assets/8f04dfeb-4b77-4b8d-82ae-5b974dc340d4" />
+
 
 The portal gives HR staff, managers, and employees a friendly interface over the Dataverse tables — KPIs, headcount charts, hiring trends, employee directory, recent announcements, quick actions, and "My Tasks" approvals — **without anyone touching raw data directly**.
 
