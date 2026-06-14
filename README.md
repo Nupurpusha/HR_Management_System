@@ -9,7 +9,7 @@
 [![SharePoint](https://img.shields.io/badge/SharePoint-Document%20Hub-008272?style=for-the-badge&logo=microsoftsharepoint&logoColor=white)](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#-license)
 
-> **Presented by:** Nupur Pusha ·
+> **Presented by:** Nupur Pusha 
 
 ---
 
